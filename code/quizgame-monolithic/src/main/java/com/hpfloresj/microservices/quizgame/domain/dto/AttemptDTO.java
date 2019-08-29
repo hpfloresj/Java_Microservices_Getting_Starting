@@ -1,4 +1,4 @@
-package com.hpfloresj.microservices.quizgame.dto;
+package com.hpfloresj.microservices.quizgame.domain.dto;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;

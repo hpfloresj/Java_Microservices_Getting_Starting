@@ -1,10 +1,10 @@
 package com.hpfloresj.microservices.quizgame.service;
 
-import com.hpfloresj.microservices.quizgame.domain.Attempt;
-import com.hpfloresj.microservices.quizgame.domain.Question;
-import com.hpfloresj.microservices.quizgame.domain.QuestionResponse;
-import com.hpfloresj.microservices.quizgame.domain.User;
-import com.hpfloresj.microservices.quizgame.dto.AttemptDTO;
+import com.hpfloresj.microservices.quizgame.domain.entity.Attempt;
+import com.hpfloresj.microservices.quizgame.domain.entity.Question;
+import com.hpfloresj.microservices.quizgame.domain.entity.QuestionResponse;
+import com.hpfloresj.microservices.quizgame.domain.entity.User;
+import com.hpfloresj.microservices.quizgame.domain.dto.AttemptDTO;
 import com.hpfloresj.microservices.quizgame.repository.AttemptRepository;
 import com.hpfloresj.microservices.quizgame.repository.QuestionRepository;
 import com.hpfloresj.microservices.quizgame.repository.UserRepository;

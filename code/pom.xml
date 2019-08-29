@@ -9,7 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>quizgame-monolithic</module>        
+        <module>quizgame-monolithic</module>
+        <module>gamification</module>
+        <module>quizgame-core-support</module>
+        <module>quizgame-share-domain</module>
     </modules>
 
     <properties>
@@ -22,6 +25,7 @@
         <spring.boot.version>2.1.6.RELEASE</spring.boot.version>
         <swagger.version>2.9.2</swagger.version>
         <junit.version>4.12</junit.version>
+        <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
     </properties>
 
     <dependencyManagement>
@@ -44,6 +48,14 @@
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${swagger.version}</version>
             </dependency>
+            <!--Spring Cloud Stream-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -65,5 +77,24 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/libs-milestone-local</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>spring-releases</id>
+            <name>Spring Releases</name>
+            <url>https://repo.spring.io/release</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
 </project>

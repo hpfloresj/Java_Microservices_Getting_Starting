@@ -1,4 +1,4 @@
-package com.hpfloresj.microservices.quizgame.domain;
+package com.hpfloresj.microservices.quizgame.domain.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

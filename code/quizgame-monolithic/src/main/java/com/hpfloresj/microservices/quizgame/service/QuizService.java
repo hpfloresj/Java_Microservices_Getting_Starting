@@ -1,9 +1,9 @@
 package com.hpfloresj.microservices.quizgame.service;
 
 
-import com.hpfloresj.microservices.quizgame.domain.Attempt;
-import com.hpfloresj.microservices.quizgame.domain.Question;
-import com.hpfloresj.microservices.quizgame.dto.AttemptDTO;
+import com.hpfloresj.microservices.quizgame.domain.entity.Attempt;
+import com.hpfloresj.microservices.quizgame.domain.entity.Question;
+import com.hpfloresj.microservices.quizgame.domain.dto.AttemptDTO;
 
 import java.util.List;
 

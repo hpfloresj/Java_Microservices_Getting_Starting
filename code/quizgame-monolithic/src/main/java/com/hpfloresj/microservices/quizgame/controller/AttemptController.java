@@ -1,7 +1,7 @@
 package com.hpfloresj.microservices.quizgame.controller;
 
-import com.hpfloresj.microservices.quizgame.domain.Attempt;
-import com.hpfloresj.microservices.quizgame.dto.AttemptDTO;
+import com.hpfloresj.microservices.quizgame.domain.entity.Attempt;
+import com.hpfloresj.microservices.quizgame.domain.dto.AttemptDTO;
 import com.hpfloresj.microservices.quizgame.service.QuizService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
