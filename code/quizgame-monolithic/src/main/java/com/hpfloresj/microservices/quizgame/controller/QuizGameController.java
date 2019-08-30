@@ -1,6 +1,6 @@
 package com.hpfloresj.microservices.quizgame.controller;
 
-import com.hpfloresj.microservices.quizgame.domain.Question;
+import com.hpfloresj.microservices.quizgame.domain.entity.Question;
 import com.hpfloresj.microservices.quizgame.service.QuizService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;

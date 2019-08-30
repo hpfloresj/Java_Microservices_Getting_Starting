@@ -1,4 +1,4 @@
-package com.hpfloresj.microservices.quizgame.domain;
+package com.hpfloresj.microservices.quizgame.domain.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;

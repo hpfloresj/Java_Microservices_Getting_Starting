@@ -1,4 +1,4 @@
-package com.hpfloresj.microservices.quizgame.exception;
+package com.hpfloresj.microservices.core.support.rest.exception;
 
 public class ApplicationException extends RuntimeException {
 

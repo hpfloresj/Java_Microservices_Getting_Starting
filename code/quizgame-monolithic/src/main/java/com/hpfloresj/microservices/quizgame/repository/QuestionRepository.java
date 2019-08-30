@@ -1,6 +1,6 @@
 package com.hpfloresj.microservices.quizgame.repository;
 
-import com.hpfloresj.microservices.quizgame.domain.Question;
+import com.hpfloresj.microservices.quizgame.domain.entity.Question;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

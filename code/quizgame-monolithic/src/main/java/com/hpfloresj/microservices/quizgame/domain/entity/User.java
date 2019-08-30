@@ -1,4 +1,4 @@
-package com.hpfloresj.microservices.quizgame.domain;
+package com.hpfloresj.microservices.quizgame.domain.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -11,7 +11,7 @@ import javax.persistence.*;
 @Getter
 @Entity
 @Table(name = "user")
-public class User {
+public final class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

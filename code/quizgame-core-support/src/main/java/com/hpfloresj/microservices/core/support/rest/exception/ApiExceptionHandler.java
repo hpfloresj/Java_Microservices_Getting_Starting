@@ -1,4 +1,4 @@
-package com.hpfloresj.microservices.quizgame.exception;
+package com.hpfloresj.microservices.core.support.rest.exception;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Class that represents the handler of exceptions in the layer RestFull
+ */
 @RestControllerAdvice
 public class ApiExceptionHandler {
 

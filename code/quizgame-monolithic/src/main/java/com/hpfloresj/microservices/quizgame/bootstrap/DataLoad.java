@@ -1,7 +1,7 @@
 package com.hpfloresj.microservices.quizgame.bootstrap;
 
-import com.hpfloresj.microservices.quizgame.domain.Answer;
-import com.hpfloresj.microservices.quizgame.domain.Question;
+import com.hpfloresj.microservices.quizgame.domain.entity.Answer;
+import com.hpfloresj.microservices.quizgame.domain.entity.Question;
 import com.hpfloresj.microservices.quizgame.repository.QuestionRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
