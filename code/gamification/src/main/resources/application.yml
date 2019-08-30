@@ -14,7 +14,7 @@ spring:
     show-sql: false
 
   # H2
-  # http://localhost:8082/h2-console
+  # http://localhost:8083/h2-console
   h2:
     console:
       enabled: true
@@ -26,6 +26,3 @@ spring:
     username: sa
     password:
     driverClassName: org.h2.Driver
-
-quiz:
-  length: 5
